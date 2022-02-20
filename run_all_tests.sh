@@ -1,0 +1,1 @@
+find . -maxdepth 3 -mindepth 3 -name 'test_cases' -exec ./run_every_test.sh "{}" \;
