@@ -5,11 +5,12 @@ My solutions for USACO problems in Rust.
 # Prerequisites
 
 [Rust](https://www.rust-lang.org/)
+
 [rargs](https://github.com/lotabout/rargs) 
 `cargo install rargs`
+
 [prettydiff](https://github.com/lotabout/rargs) 
 `cargo install prettydiff`
-
 
 # Running 
 
