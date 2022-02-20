@@ -6,5 +6,5 @@ b=$(cat "$2.out")
 if [ "$a" == "$b" ]; then
 	echo "$2 is OK"
 else
-	prettydiff <(echo "$a") <(echo "$b")
+	prettydiff <(echo "$a") "$2.out"
 fi
